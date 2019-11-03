@@ -1,0 +1,18 @@
+.div{class => "alert alert-success"}
+  %h1
+    {{name}}
+  {{sub}}
+.div{class => "alert alert-info"}
+  Woohoo!
+
+%table{class => "table"}
+  %tr
+    %td
+      Table thing
+    %td
+      mau
+  %tr
+    %td
+      Jenn
+    %td
+      {{label}}
